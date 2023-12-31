@@ -1,0 +1,111 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    background-image:url(/Image/Background.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+@media (max-width: 500px)
+{
+  body{
+    background-image: url(/Image/background2.png);
+    background-size: cover;
+  }   
+}
+
+form{
+     height: 500px;
+     width: 300px;
+     margin:auto;
+     margin-top: 70px;
+     background-color: transparent;
+     backdrop-filter: blur(5px);
+     border: 1px solid white;
+     border-radius: 10px;
+     animation: 1.5s ease-in-out anim-form;
+     animation-iteration-count: 1;
+}
+
+@keyframes anim-form{
+    0%{transform:scale(0.5);}
+    100%{transform: scale(1);}
+}
+
+pre{
+    color: black;
+    font-weight: bolder;
+    font-size: 25px;
+    font-family: 'Segoe UI', Roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.inputbox1{
+    margin: 0px 20px 10px 20px;
+}
+.inputbox2{
+    margin: 15px 20px 10px 20px;
+}
+.inputbox3{
+    margin: 15px 20px 10px 20px;
+}
+.inputbox4{
+    margin: 15px 20px 10px 20px;
+}
+.inputbox5{
+    margin: 15px 20px 10px 20px;
+}
+
+.name{
+    width: 250px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 10px; 
+}
+
+.Email{
+    width: 250px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 10px; 
+}
+
+.Password{
+    width: 250px;
+    height: 20px;
+    border: 2px solid black;
+    border-radius: 10px; 
+}
+
+button{
+    width: 250px;
+    height: 33px;
+    font-size: 20px;
+    background-color: rgb(5, 210, 5);
+    border: 2px solid black;
+    border-radius: 25px;
+    margin: 15px 20px 10px 20px;
+}
+
+button:hover{
+    cursor: pointer;
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+.login{
+     display: flex;
+     justify-content: center;
+     
+}
+
+a{
+    color: black;
+    font-weight: 800;
+}
