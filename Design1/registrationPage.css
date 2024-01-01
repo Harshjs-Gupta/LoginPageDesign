@@ -3,7 +3,7 @@
 }
 
 body{
-    background-image:url(/Image/Background.png);
+    background-image:url(/Design1/Image/Background.png);
     background-size: cover;
     background-attachment: fixed;
 }
@@ -11,7 +11,7 @@ body{
 @media (max-width: 500px)
 {
   body{
-    background-image: url(/Image/background2.png);
+    background-image: url(/Design1/Image/background2.png);
     background-size: cover;
   }   
 }
@@ -20,7 +20,7 @@ form{
      height: 500px;
      width: 300px;
      margin:auto;
-     margin-top: 70px;
+     /* margin-top: 70px; */
      background-color: transparent;
      backdrop-filter: blur(5px);
      border: 1px solid white;
