@@ -3,9 +3,11 @@
 }
 
 body{
+    height: 100vh;
     background-image:url(/Design1/Image/Background.png);
     background-size: cover;
     background-attachment: fixed;
+    display: flex;
 }
 
 @media (max-width: 500px)
