@@ -5,7 +5,7 @@
 
 body {
   height: 100vh;
-  background-image: url(/Image/Background.png);
+  background-image: url(/Design1/Image/Background.png);
   background-repeat: no-repeat;
   background-position: contain;
   background-size: cover;
@@ -17,7 +17,7 @@ body {
 
 @media (max-width: 500px) {
   body {
-    background-image: url(/Image/background2.png);
+    background-image: url(/Design1/Image/background2.png);
     background-repeat: no-repeat;
     background-position: contain;
     background-size: cover;
